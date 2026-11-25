@@ -44,7 +44,7 @@ import signal
 HERE = os.path.dirname(os.path.abspath(__file__))
 GW_BIN = "/tmp/linux_gw"
 GW_SRC = os.path.join(HERE, "linux_gw.cpp")
-FIRMWARE_DIR = os.path.normpath(os.path.join(HERE, "..", "firmware"))
+FIRMWARE_DIR = os.path.normpath(os.path.join(HERE, "..", "firmware", "esp32_csd_gateway"))
 PORT1, PORT2 = 15000, 15001
 
 # парк: порты и «номер-отказник» для F3
